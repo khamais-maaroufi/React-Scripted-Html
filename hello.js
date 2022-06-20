@@ -1,6 +1,6 @@
 class Machine extends React.Component {
   render() {
-    const ify = false;
+    const ify = true;
     console.log(this.props);
     return (
       <div className={ify ? "Ify" : ""}>
